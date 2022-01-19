@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./app.scss"
+import Currency from "./Currency/Currency"
+import Results from "./Results/Results"
 
 function App() {
+    const [value, setValue] = useState("")
+
     return (
-    <h1>Hello</h1>
+    <div>
+        <Currency setValue={setValue} value={value}/>
+        <Results currencyCode={value}/>
+    </div> 
     );
 };
 
