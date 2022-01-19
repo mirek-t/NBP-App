@@ -1,0 +1,11 @@
+{
+  "name": "nbp-app",
+  "version": "0.0.1",
+  "description": "nbp exchange-rate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miroslaw.truminski@gmail.com",
+  "license": "Beerware"
+}
